@@ -1,0 +1,85 @@
+/* minimal reset */
+
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0
+}
+
+:root {
+    --color-primary: #7b9acc;
+    --color-contrast: #FCF6F5;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    background-color: var(--color-contrast);
+    color: var(--color-primary);
+    font-family: 'Lobster', cursive;
+}
+
+h1 {
+    font-size: 5rem;
+    padding: 1em 0;
+}
+
+.is-hidden {
+    display: none!important;
+}
+
+.is-visible {
+    display: block!important;
+}
+
+.content-area {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10em;
+}
+
+.main-bt {
+    padding: 1em 3em;
+    background-color: var(--color-primary);
+    color: var(--color-contrast);
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    box-shadow: 0 6px 15px rgba(36, 37, 38, 0.08);
+}
+
+.reset-bt {
+    display: none;
+    padding: 1em 3em;
+    background-color: transparent;
+    color: var(--color-primary);
+    border: 2px solid var(--color-primary);
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    box-shadow: 0 6px 15px rgba(36, 37, 38, 0.08);
+    margin-bottom: 4em;
+}
+
+.balls ul {
+    display: flex;
+}
+
+.ball {
+    background-color: var(--color-primary);
+    padding: 10px 30px;
+    color: var(--color-contrast);
+    margin: 0 1em;
+    font-size: 3rem;
+    border-radius: 100%;
+}

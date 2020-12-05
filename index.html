@@ -6,10 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <button id="spark" onclick="createBalls()">Start here</button>
+    <div>
+        <h1>EuroMillions</h1>
+    </div>
+    <div class="content-area">
+    
+        <div class="bt-area">
+            <button id="spark" class="main-bt" onclick="createBalls()">Start here</button>
+            <button id="reset" class="reset-bt" onclick="location.reload()">Reset</button>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 
