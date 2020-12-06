@@ -292,7 +292,7 @@ h1 {
 }
 
 .star {
-    background-color: transparent;
+    background-color: red;
     padding: 15px;
     color: var(--color-primary);
     border: 2px solid var(--color-primary);
